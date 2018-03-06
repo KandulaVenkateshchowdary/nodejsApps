@@ -1,0 +1,21 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "my first",
+  "main": "app.js",
+  "scripts": {
+    "myprog": "nodemon app.js",
+    "premyprog":"cls",
+    "postmyprog":"dir"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "expressjs",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "express": "^4.16.2"
+  },
+  "config" : {"port" :"8989"}
+}
