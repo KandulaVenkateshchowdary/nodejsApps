@@ -20,7 +20,7 @@ app.get('/about',function(req,res){
        
 
            
-var port = process.env.npm_package_config_port;
+var port = process.env.PORT || 3000;
 app.listen(port,function(){
 console.log('HTTP opened up on the port number ' + port);
 });
